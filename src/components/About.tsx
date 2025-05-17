@@ -5,7 +5,7 @@ const About: React.FC = () => {
     <section className="resume-section" id="about">
       <div className="resume-section-content">
         <h1 className="mb-0">
-          Atay <span className="text-primary">Aksaka</span>
+          Atay <span className="text-primary">Aksakal</span>
         </h1>
         <div className="subheading mb-5">
           Guzelbahce / Izmir · +90 536 051 64 72 ·{" "}
