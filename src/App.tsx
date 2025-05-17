@@ -12,6 +12,7 @@ import Interests from "./components/Interests";
 import Sidebar from "./components/Sidebar";
 import Skills from "./components/Skills";
 import Languages from "./components/Languages";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/interests" element={<Interests />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/languages" element={<Languages />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </div>

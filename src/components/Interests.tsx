@@ -6,41 +6,28 @@ const Interests: React.FC = () => {
       <div className="resume-section-content">
         <h2 className="mb-5">Interests</h2>
         <p className="mb-4">
-          I’m passionate about software beyond just building functionality. My
-          interests revolve around creating meaningful digital experiences and
-          understanding how technology intersects with human behavior, design,
-          and global collaboration.
+          Outside of coding, I enjoy exploring design principles, discovering
+          new cities, and diving into the world of automobiles. These interests
+          keep me curious, creative, and constantly inspired.
         </p>
         <ul className="fa-ul mb-0">
           <li>
             <span className="fa-li">
-              <i className="fas fa-code"></i>
+              <i className="fas fa-car"></i>
             </span>
-            Building scalable and intuitive software
+            Passionate about cars and automotive technology
           </li>
           <li>
             <span className="fa-li">
-              <i className="fas fa-pencil-ruler"></i>
+              <i className="fas fa-city"></i>
             </span>
-            Exploring UI/UX design systems
+            Enjoy discovering new cities and urban cultures
           </li>
           <li>
             <span className="fa-li">
-              <i className="fas fa-cogs"></i>
+              <i className="fas fa-paint-brush"></i>
             </span>
-            Automation in business applications
-          </li>
-          <li>
-            <span className="fa-li">
-              <i className="fas fa-language"></i>
-            </span>
-            Multilingual collaboration and tech culture
-          </li>
-          <li>
-            <span className="fa-li">
-              <i className="fas fa-laptop-code"></i>
-            </span>
-            Learning new programming languages & tools
+            Exploring UI/UX design and digital aesthetics
           </li>
         </ul>
       </div>
