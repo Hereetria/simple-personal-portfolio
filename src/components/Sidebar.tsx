@@ -69,7 +69,10 @@ const Sidebar: React.FC = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contact">
+            <Link
+              className="nav-link"
+              to="/https://mail.google.com/mail/?view=cm&to=atayaksakal@outlook.com"
+            >
               Contact
             </Link>
           </li>
