@@ -1,4 +1,4 @@
-# 🌐 Simple Personal Portfolio — Static Responsive Website
+# 💼 Simple Personal Portfolio — Static Responsive Website
 
 <br>
 
