@@ -26,12 +26,12 @@ It was originally created **as a portfolio for a friend**, focusing on clean str
 
 ## 🖼️ Screenshots
 Shown below in order:  
-**1. Landing** · **2. About** · **3. Login**
+**1. About** · **2. Skills** · **3. Projects**
 
 <p align="center">
-  <img src="./public/screenshots/landing.png" width="32%">
-  <img src="./public/screenshots/about.png" width="32%">
-  <img src="./public/screenshots/projects.png" width="32%">
+  <img src="./docs/screenshots/about.png" width="32%">
+  <img src="./docs/screenshots/skills.png" width="32%">
+  <img src="./docs/screenshots/projects.png" width="32%">
 </p>
 
 <br>
