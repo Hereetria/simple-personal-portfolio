@@ -12,19 +12,7 @@
 Simple Personal Portfolio is a **React + TypeScript** based single-page portfolio website built using a ready-made template and customized for personal use.  
 It was originally created **as a portfolio for a friend**, focusing on clean structure, smooth scrolling, and easy customization without implementing any backend logic.
 
----
-
-## 🖼️ Screenshots
-Shown below in order:  
-**1. Landing** · **2. About** · **3. Login**<br>
-
-<p align="center">
-  <img src="./public/screenshots/landing.png" width="32%">
-  <img src="./public/screenshots/about.png" width="32%">
-  <img src="./public/screenshots/projects.png" width="32%">
-</p>
-
----
+<br>
 
 ## ✨ Features
 
@@ -34,7 +22,19 @@ Shown below in order:
 - Built on a **ready-made React + TypeScript template**, allowing easy editing and reusability  
 - Lightweight structure without backend dependencies
 
----
+<br>
+
+## 🖼️ Screenshots
+Shown below in order:  
+**1. Landing** · **2. About** · **3. Login**
+
+<p align="center">
+  <img src="./public/screenshots/landing.png" width="32%">
+  <img src="./public/screenshots/about.png" width="32%">
+  <img src="./public/screenshots/projects.png" width="32%">
+</p>
+
+<br>
 
 ## 🧰 Tech Stack
 
@@ -43,7 +43,7 @@ Shown below in order:
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge" height="32" />
 </p>
 
----
+<br>
 
 ## 📥 Installation
 
@@ -62,7 +62,7 @@ pnpm dev       # start development server
 
 Then open `http://localhost:3000` in your browser to view the portfolio.
 
----
+<br>
 
 ## 📜 License
 
