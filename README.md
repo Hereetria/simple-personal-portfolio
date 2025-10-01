@@ -1,54 +1,75 @@
-# React + TypeScript + Vite
+# 🌐 Simple Personal Portfolio — Static Responsive Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
 
-Currently, two official plugins are available:
+[![Report Bug](https://img.shields.io/badge/🐛_Report_Bug-red?style=for-the-badge)](../../issues/new?labels=bug)
+[![Request Feature](https://img.shields.io/badge/✨_Request_Feature-blue?style=for-the-badge)](../../issues/new?labels=enhancement)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
 
-## Expanding the ESLint configuration
+## 📌 Project Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Simple Personal Portfolio is a **React + TypeScript** based single-page portfolio website built using a ready-made template and customized for personal use.  
+It was originally created **as a portfolio for a friend**, focusing on clean structure, smooth scrolling, and easy customization without implementing any backend logic.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🖼️ Screenshots
+Shown below in order:  
+**1. Landing** · **2. About** · **3. Login**<br>
+
+<p align="center">
+  <img src="./public/screenshots/landing.png" width="32%">
+  <img src="./public/screenshots/about.png" width="32%">
+  <img src="./public/screenshots/projects.png" width="32%">
+</p>
+
+---
+
+## ✨ Features
+
+- **Single-page layout** with smooth scroll navigation  
+- Responsive design across devices  
+- Sections: **Landing**, **About**, **Skills**, **Projects**, **Contact**  
+- Built on a **ready-made React + TypeScript template**, allowing easy editing and reusability  
+- Lightweight structure without backend dependencies
+
+---
+
+## 🧰 Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Badge" height="32" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge" height="32" />
+</p>
+
+---
+
+## 📥 Installation
+
+### Prerequisites
+- Node.js 18+  
+- pnpm / npm / yarn
+
+### Setup
+```bash
+git clone https://github.com/Hereetria/simple-personal-portfolio.git
+cd simple-personal-portfolio
+
+pnpm install   # or npm install / yarn install
+pnpm dev       # start development server
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Then open `http://localhost:3000` in your browser to view the portfolio.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📜 License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+This project is licensed under the terms described in the [LICENSE](./LICENSE) file.
+
+---
+
+© 2025 Yusuf Okan Sirkeci — [Hereetria](https://github.com/Hereetria)
